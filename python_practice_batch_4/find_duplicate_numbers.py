@@ -9,7 +9,7 @@ for i in range(10):
         try:
             # ask the user for a number
             num = int(input(f"Enter number {i + 1}: "))
-            numbers.appendd(num)
+            numbers.append(num)
             break 
         except ValueError:
             print("Input invalid, Enter a valid integer.")
