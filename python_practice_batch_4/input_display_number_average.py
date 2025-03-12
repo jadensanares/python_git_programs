@@ -16,3 +16,7 @@ while True:
         break
 
 # display the average if the numbers entered were valid
+if count > 0:
+    print("Average:", total_sum / count)
+else:
+    print("No valid numbers were entered.")
