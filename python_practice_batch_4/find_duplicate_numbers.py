@@ -29,6 +29,6 @@ for number in numbers:
 
 # display results
 if duplicates:
-    print("Duplicate numbers are:", duplicates, number)
+    print("Duplicate numbers are:", duplicates)
 else:
     print("No duplicate numbers were found.")
