@@ -7,7 +7,7 @@ while True:
     user_input = input("Input a number: ")
 
     try: 
-        numbers = int(user_input)
+        number = int(user_input)
         numbers.append(number)
     except ValueError:
         break
