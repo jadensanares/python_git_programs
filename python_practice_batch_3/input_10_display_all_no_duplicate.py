@@ -17,3 +17,7 @@ for i in range(10):
         number_count[number] = 1
 
 # Diplay the numbers that do not have duplicates
+print("All numbers that don't have duplicate:")
+for number in number_list:
+    if number_count[number] == 1:
+        print(number)
