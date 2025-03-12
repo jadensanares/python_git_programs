@@ -2,14 +2,14 @@
 
 # Initialize an empty list to store the numbers, Initialize an empty set to keep track of seen numbers
 number_list = []
-seend_numbers = set()
+seen_numbers = set()
 # Prompt the user input 10 numbers
 for i in range(10):
     number = int(input(f"Enter a number {i + 1}: ")) # Getting the user input
     number_list.append(number) # Adding the number to the list
 
 # Display the numbers showing duplicates only once
-print("Numbers (duplicates shonw only once):")
+print("Numbers (duplicates shown only once):")
 for number in number_list:
     if number not in seen_numbers: # Checking if the nubmer has not been seen
         print(number)
