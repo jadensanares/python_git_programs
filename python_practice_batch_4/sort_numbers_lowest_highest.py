@@ -11,3 +11,8 @@ while True:
         numbers.append(number)
     except ValueError:
         continue
+
+numbers.sort(reverse=True)
+
+print("Numbers from highest to lowest:", numbers)
+            
