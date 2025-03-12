@@ -20,6 +20,13 @@ while True:
         continue
 
 # update the lowest number if there are changes with the valid input 
-    
+    if lowest_number is None or number < lowest_number:
+        lowest_number = number
 
 # after the loop, display the lowest number
+if lowest_number is not None:
+    print(f"The lowest number entered is: {lowest_number}")
+else:
+    print("No valid numbers were entered.")
+
+# THE RESULT OF THE LOWEST NUMBER INPUT WILL DISPLAY AFTER THE USER HAS TYPED 'quit'
