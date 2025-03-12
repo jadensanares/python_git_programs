@@ -10,3 +10,7 @@ for i in range(10):
 
 # Display the numbers showing duplicates only once
 print("Numbers (duplicates shonw only once):")
+for number in number_list:
+    if number not in seen_numbers: # Checking if the nubmer has not been seen
+        print(number)
+        seen_numbers.add(number) # Marking the number as seen
