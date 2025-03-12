@@ -28,3 +28,7 @@ for number in numbers:
         seen.add(number)
 
 # display results
+if duplicates:
+    print("Duplicate numbers are:", duplicates, number)
+else:
+    print("No duplicate numbers were found.")
