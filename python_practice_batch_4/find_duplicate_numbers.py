@@ -21,5 +21,10 @@ duplicates = set()
 seen = set()
 
 # look for duplicates
+for number in numbers:
+    if number in seen:
+        duplicates.add(number)
+    else:
+        seen.add(number)
 
 # display results
