@@ -7,10 +7,10 @@ while True:
     user_input = input("Input a number: ")
 
     try: 
-        nubmers = int(user_input)
+        numbers = int(user_input)
         numbers.append(number)
     except ValueError:
-        continue
+        break
 
 numbers.sort(reverse=True)
 
