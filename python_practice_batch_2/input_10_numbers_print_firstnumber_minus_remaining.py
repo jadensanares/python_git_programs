@@ -12,4 +12,8 @@ for i in range(10):
 result = numbers [0]
 
 # Subtract each of the remaining numbers from the result
+for i in range (1, 10): # Loop from second number to last
+    result -= numbers[i]
+
+# Print the final result
 print("The result of the first number minus all of the remaining numbers is:", result)
