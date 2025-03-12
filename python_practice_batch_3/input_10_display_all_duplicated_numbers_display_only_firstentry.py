@@ -8,6 +8,11 @@ for i in range(10):
     number = int(input(f"Enter a number {i + 1}: ")) # Getting the user input
     number_list.append(number) # Adding the number to the list
 
+# Diplaying all numbers entered
+print("All numbers entered:")
+for number in number_list:
+    print(number)
+
 # Display the numbers showing duplicates only once
 print("Numbers (duplicates shown only once):")
 for number in number_list:
