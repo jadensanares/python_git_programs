@@ -9,3 +9,11 @@ while True:
     if user_input.strip() == "": # This is to check if the input is empty
         print("Highest Number:", highest_number)
         break
+
+    try:
+        user_input = int(user_input)
+        if highest_number is None or user_input > highest_number:
+            highest_number = user_input
+    except ValueError:
+        print("Highest Number:", highest_number)
+        break
