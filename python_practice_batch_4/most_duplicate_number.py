@@ -24,3 +24,7 @@ for number in numbers:
         most_duplicate_number = number
 
 # Display the number with the most number of duplicates
+if most_duplicate_number is not None:
+    print(f"The number with the most duplicates is {most_duplicate_number} (appeared {max_count} times)")
+else:
+    print("The input is invalid as there were no numbers")
