@@ -1,4 +1,4 @@
-# Prog02: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry.
+# Prog02: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry..
 
 # Initialize an empty list to store the numbers, Initialize an empty set to keep track of seen numbers
 number_list = []
