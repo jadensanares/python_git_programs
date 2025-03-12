@@ -14,5 +14,13 @@ while True:
         break
 
 # Find the number with the most duplicates
+most_duplicate_number = None
+max_count = 0
+
+for number in numbers:
+    count = numbers.count(number)
+    if count > max_count:
+        max_count = count
+        most_duplicate_number = number
 
 # Display the number with the most number of duplicates
