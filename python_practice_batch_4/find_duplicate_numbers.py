@@ -15,8 +15,10 @@ for i in range(10):
             print("Input invalid, Enter a valid integer.")
 
 # Make a set to store duplicates
+duplicates = set()
 
 # Make a set to track see numbers
+seen = set()
 
 # look for duplicates
 
