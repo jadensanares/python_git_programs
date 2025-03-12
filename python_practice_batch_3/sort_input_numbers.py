@@ -2,7 +2,7 @@
 
 # Initialize the empty list to store the numberss
 numbers = []
-# make a loop to cintue askign for input
+# make a loop to cintue asking for input
 while True:
 # prompt the user to enter a number
     user_input = input("Enter a number: ")
@@ -18,6 +18,4 @@ while True:
             print(numbers)
         else:
             print("Invalid numbers were entered.")
-        break
-
-# exit the loop after showing the results
+        break # exiting the loop after results have been displayed
