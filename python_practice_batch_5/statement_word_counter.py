@@ -4,5 +4,10 @@
 # Output: 14
 
 # Ask the user to input a complete statement
+statement = input("Enter a complete statement: ")
+
 # Word counter for the statement
+word_counter = len(statement.split())
+
 # Print result
+print("Number of words in the statement:", word_counter)
