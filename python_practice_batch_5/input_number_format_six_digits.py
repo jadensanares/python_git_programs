@@ -4,5 +4,10 @@
 # Output: 000143
 
 # Ask the user to input a number
+number = int(input("Enter a number from (0-1000): "))
+
 # For the number to 6 digits with leading zeroes
+formatted_number = f"{number:06}"
+
 # Print Result
+print("Formatted Number:", formatted_number)
