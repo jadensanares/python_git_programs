@@ -8,3 +8,5 @@ full_name = input("Enter yopur full name: ")
 
 # Convert the full name into all capital lettters
 uppercase_name = full_name.upper()
+
+# Printing the result
