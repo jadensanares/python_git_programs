@@ -4,7 +4,7 @@
 full_name = input("Enter your full name: ")
 
 # Removing of leading spaces
-removed_lead_space = full_name
+removed_lead_space = full_name.lstrip()
 
 # Print result
-print("Full name: ", removed_lead_space)
+print("Full name:", removed_lead_space)
