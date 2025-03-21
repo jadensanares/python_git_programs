@@ -10,3 +10,4 @@ full_name = input("Enter yopur full name: ")
 uppercase_name = full_name.upper()
 
 # Printing the result
+print("Fullname:", uppercase_name)
