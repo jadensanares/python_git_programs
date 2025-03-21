@@ -4,7 +4,7 @@
 # Output: JUAN DELA CRUZ
 
 # Ask the user to input their full name
-full_name = input("Enter yopur full name: ")
+full_name = input("Enter your full name: ")
 
 # Convert the full name into all capital lettters
 uppercase_name = full_name.upper()
